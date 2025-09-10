@@ -1,8 +1,8 @@
 
 # Variables
-TBTOP=NAME_OF_TESTBENCH
-SRCDIR=src
-TBDIR=UVM
+TBTOP=tb_clocked_adder
+SRCDIR=.
+TBDIR=.
 # FUSESOC=fusesoc_libraries/digital-lib/edge_detector/src/socetlib_edge_detector.sv
 
 

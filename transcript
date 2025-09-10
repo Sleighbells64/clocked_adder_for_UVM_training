@@ -1,0 +1,13 @@
+# vsim -c tb_clocked_adder -L /package/eda/mg/questa2021.4/questasim/uvm-1.2 -voptargs="+acc" -coverage "+UVM_TESTNAME=counterTest" "+UVM_VERBOSITY=UVM_MEDIUM" -do "run -all" 
+# Start time: 14:30:04 on Sep 10,2025
+# Loading /tmp/aschlab@asicfab.ecn.purdue.edu_dpi_2245823/linux_x86_64_gcc-7.4.0/export_tramp.so
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: tb_clocked_adder.sv(17): Module 'clocked_adder_if' is not defined.
+#  For instance 'caif' at path 'tb_clocked_adder'
+# ** Error: tb_clocked_adder.sv(19): Module 'clocked_adder' is not defined.
+#  For instance 'DUT' at path 'tb_clocked_adder'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=2, Warnings=0.
+# Error loading design
+# End time: 14:30:05 on Sep 10,2025, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0

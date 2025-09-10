@@ -1,0 +1,12 @@
+QuestaSim-64 vlog 2021.4 Compiler 2021.10 Oct 13 2021
+Start time: 14:30:03 on Sep 10,2025
+vlog "+incdir+.+." "+acc" "+cover" -L /package/eda/mg/questa2021.4/questasim/uvm-1.2 tb_clocked_adder.sv -logfile tb_compile.log -printinfilenames=file_search.log 
+** Warning: tb_clocked_adder.sv(3): (vlog-13233) Design unit "tb_clocked_adder_sv_unit" already exists and will be overwritten. Design unit compiled with different set of options.
+-- Compiling package tb_clocked_adder_sv_unit
+-- Importing package /package/eda/mg/questa2021.4/questasim/uvm-1.2.uvm_pkg (uvm-1.2 Built-in)
+-- Compiling module tb_clocked_adder
+
+Top level modules:
+	tb_clocked_adder
+End time: 14:30:03 on Sep 10,2025, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1

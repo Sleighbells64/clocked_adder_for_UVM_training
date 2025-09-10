@@ -3,6 +3,7 @@
 import uvm_pkg::*;
 
 module tb_clocked_adder; 
+  parameter int PERIOD = 20; //ns
 
 
   logic tb_clk = 0;
