@@ -1,5 +1,8 @@
 `timescale 1ns / 1ps
 
+`include "clocked_adder.sv"
+`include "clocked_adder_if.svh"
+`include "test_adder.svh"
 import uvm_pkg::*;
 
 module tb_clocked_adder; 
